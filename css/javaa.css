@@ -1,0 +1,14 @@
+body{
+    background-image: url(conjuntodinero.jpg);
+    
+}
+#contenedor{
+font-family: 'Lucida Sans';
+  width: 300px;
+  margin: auto;
+  background-color: rgba(3, 770, 185, 0.9); 
+   font-size: 1;
+}
+#imagen{
+    text-align: center;
+}

@@ -1,0 +1,79 @@
+#contenedor{
+    
+    width: 1370px;
+    height: 650px;
+    background-image: url(sabina.jpg );
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed; 
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#degradado{
+content: "";
+width: 100%;
+min-height: 100vh;
+position: absolute;
+top: 0;
+left: 0;
+
+background: linear-gradient(#FFFF00 , #FFFF00);
+opacity: 0.7;
+
+}
+#texto1{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    
+    width: 1350px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 40px;
+    left: 6px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    opacity: 0.8;
+    }
+    #sabina{
+        color:rgb(255, 255, 255);
+        font-family: sans-serif;
+        position: absolute;
+        top: 80px;
+        left: 500px;
+
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        
+        z-index: 3;
+    }
+#lorem{
+    color:rgb(255, 255, 255);
+        font-family:  'Lucida Sans Unicode' ;
+        z-index: 4;
+}
+#texto2{
+    color:rgb(255, 255, 255);
+    font-family: sans-serif;
+    
+    width: 350px;
+    height: 150px;
+    background-color: rgb(0, 0, 0);
+    position: absolute;
+    top: 450px;
+    left: 470px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
